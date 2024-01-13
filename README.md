@@ -14,3 +14,18 @@
 - Ensure the component is efficient and re-renders only when necessary.
 - Implement basic styling to distinguish between headers and rows.
 - (Bonus) Add pagination support with a configurable number of rows per page.
+
+## Exercise 2: State Management and Component Interaction
+
+**Task:** Create a small React application with the following components:
+
+- **UserList**: Displays a list of users. Each user has a name and an active/inactive status.
+- **UserStatusToggle**: A component that allows users to toggle their active/inactive status.
+- **ActiveUserCount**: Displays the number of users currently active.
+
+**Requirements:**
+
+- Use a central state management approach (Context API or any state management library you're comfortable with).
+- The **UserList** component should display all users and their current status.
+- The **UserStatusToggle** should allow changing the status of a user. This change should reflect in the **UserList** component.
+- The **ActiveUserCount** should always show the correct number of active users.
