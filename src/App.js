@@ -1,9 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { UserProvider } from './components/user/UserContext';
-import UserList from './components/user/UserList';
-import UserStatusToggle from './components/user/UserStatusToggle';
-import ActiveUserCount from './components/user/ActiveUserCount';
+import PostsComponent from './components/PostsComponent'
 
 function App() {
   return (
@@ -11,13 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Simple <code>State Management</code> with <code>Context API</code>.
+          Simple <code>API Integration</code> with <code>useEffect</code>.
         </p>
-        <UserProvider>
-          <UserList />
-          <UserStatusToggle />
-          <ActiveUserCount />
-        </UserProvider>
+        <PostsComponent />
       </header>
     </div>
   );

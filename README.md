@@ -29,3 +29,14 @@
 - The **UserList** component should display all users and their current status.
 - The **UserStatusToggle** should allow changing the status of a user. This change should reflect in the **UserList** component.
 - The **ActiveUserCount** should always show the correct number of active users.
+
+## Exercise 3: API Integration and Error Handling
+
+**Task:** Build a React component that retrieves and displays a list of posts from a public API (like JSONPlaceholder's `/posts` endpoint).
+
+**Requirements:**
+
+- Make an API call to retrieve posts when the component mounts.
+- Display the list of posts, each with its title and body.
+- Implement loading and error states for the API call.
+- (Bonus) Add functionality to filter posts by title.
