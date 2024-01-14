@@ -40,3 +40,15 @@
 - Display the list of posts, each with its title and body.
 - Implement loading and error states for the API call.
 - (Bonus) Add functionality to filter posts by title.
+
+## Exercise 4: Advanced React Patterns and Performance Optimization
+
+**Task:** Create a complex form in React that includes multiple input fields (text, dropdown, checkbox, etc.), and implement custom validation logic.
+
+### Requirements:
+
+- The form should have at least five different types of inputs.
+- Implement custom validation logic that triggers on form submission.
+- Use advanced React patterns (like compound components, render props, or higher-order components) to build the form.
+- Optimize the form for performance, ensuring minimal re-renders.
+- (Bonus) Implement a feature to save and load form data from local storage.
