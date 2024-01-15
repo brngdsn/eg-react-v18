@@ -52,3 +52,15 @@
 - Use advanced React patterns (like compound components, render props, or higher-order components) to build the form.
 - Optimize the form for performance, ensuring minimal re-renders.
 - (Bonus) Implement a feature to save and load form data from local storage.
+
+**Exercise 5: React and Web Technologies Integration**
+
+**Task:** Create a React application that integrates with WebSockets to provide real-time data updates.
+
+**Requirements:**
+
+- Set up a WebSocket connection to a public WebSocket server (e.g., a cryptocurrency price ticker).
+- Display real-time data received from the WebSocket server in a React component.
+- Ensure that the component updates its display whenever new data is received without causing unnecessary re-renders.
+- Handle connection errors and attempt to reconnect if the WebSocket connection is lost.
+- (Bonus) Allow the user to select specific data (e.g., a particular cryptocurrency) they want to track in real-time.
