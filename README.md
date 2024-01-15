@@ -45,7 +45,7 @@
 
 **Task:** Create a complex form in React that includes multiple input fields (text, dropdown, checkbox, etc.), and implement custom validation logic.
 
-### Requirements:
+**Requirements:**
 
 - The form should have at least five different types of inputs.
 - Implement custom validation logic that triggers on form submission.
@@ -53,7 +53,7 @@
 - Optimize the form for performance, ensuring minimal re-renders.
 - (Bonus) Implement a feature to save and load form data from local storage.
 
-**Exercise 5: React and Web Technologies Integration**
+## Exercise 5: React and Web Technologies Integration
 
 **Task:** Create a React application that integrates with WebSockets to provide real-time data updates.
 
