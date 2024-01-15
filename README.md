@@ -64,3 +64,15 @@
 - Ensure that the component updates its display whenever new data is received without causing unnecessary re-renders.
 - Handle connection errors and attempt to reconnect if the WebSocket connection is lost.
 - (Bonus) Allow the user to select specific data (e.g., a particular cryptocurrency) they want to track in real-time.
+
+## Exercise 7: React Application Architecture and State Management
+
+**Task**: Design the architecture for a medium-sized React application, such as a task management tool, focusing on state management and component structure.
+
+**Requirements:**
+
+1. **Describe the overall component structure of the application.**
+2. **Choose a state management approach** (Context API, Redux, MobX, etc.) and explain how you would manage the application's state.
+3. **Discuss how you would handle side effects** (like data fetching, WebSocket connections).
+4. **Outline your strategy for optimizing application performance and managing state updates.**
+5. *(Bonus)* **Explain how you would integrate routing in this application.**
